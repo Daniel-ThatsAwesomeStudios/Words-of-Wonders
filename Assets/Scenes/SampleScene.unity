@@ -1496,8 +1496,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2107213967}
   - component: {fileID: 2107213966}
-  - component: {fileID: 2107213968}
-  - component: {fileID: 2107213969}
   m_Layer: 0
   m_Name: Swipe Selection
   m_TagString: Untagged
@@ -1544,34 +1542,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2107213968
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2107213965}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35886c454e697a74fa600a53afc0c6ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  selectedWordText: {fileID: 7939291891879963556, guid: 2f5ee6e81172b304b833737573f4ef14, type: 3}
-  letterLayer:
-    serializedVersion: 2
-    m_Bits: 64
---- !u!114 &2107213969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2107213965}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99ac2eee68fa111478c25c4b619a3997, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  selectableLayer:
-    serializedVersion: 2
-    m_Bits: 128
